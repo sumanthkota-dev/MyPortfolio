@@ -42,8 +42,8 @@ I enjoy solving complex problems, optimizing system performance, and implementin
 
 ## 🔹 Contact & Connect
 - **Email:** sumanthkota333@gmail.com  
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/sumanthkota-dev/)  
-- **GitHub:** [github.com/username](https://github.com/sumanthkota-dev)  
+- **LinkedIn:** [linkedin.com/in/sumanth-dev](https://www.linkedin.com/in/sumanthkota-dev/)  
+- **GitHub:** [github.com/sumanth-dev](https://github.com/sumanthkota-dev)  
 
 Feel free to explore my portfolio, projects, and reach out for collaboration or feedback!
 =======
