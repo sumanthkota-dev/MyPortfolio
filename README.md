@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # Sumanth Kota | Full-Stack Developer Portfolio
 
-Welcome to my professional portfolio! I am a **dedicated Full-Stack Developer** with expertise in **Spring Boot, Node.js, React, Flutter, and cloud technologies**, with 3.6+ years of experience building scalable, real-world applications.
+Welcome to my professional portfolio! I am a **dedicated Full-Stack Developer** with expertise in **Spring Boot, Node.js, React, Flutter, and cloud technologies**, with 3.7+ years of experience building scalable, real-world applications.
 
 ---
 
@@ -41,7 +41,7 @@ I enjoy solving complex problems, optimizing system performance, and implementin
 ---
 
 ## 🔹 Contact & Connect
-- **Email:** your.email@example.com  
+- **Email:** sumanthkota333@gmail.com  
 - **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/sumanthkota-dev/)  
 - **GitHub:** [github.com/username](https://github.com/sumanthkota-dev)  
 
