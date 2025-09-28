@@ -1,0 +1,156 @@
+/* Container: centers the content */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch; /* stretch both sides */
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* LEFT SIDE */
+.left, .right {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: var(--card-bg);
+  gap: 1.5rem;
+}
+
+.left img {
+  width: clamp(150px, 25vw, 200px);
+  height: clamp(150px, 25vw, 200px);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.left h1 {
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  font-weight: 700;
+  color: var(--text);
+}
+
+/* Social Icons */
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialIcons a {
+  font-size: clamp(1.2rem, 5vw, 1.5rem);
+  color: var(--primary);
+  transition: color 0.3s;
+}
+
+.socialIcons a:hover {
+  color: var(--primary-hover);
+}
+
+/* Email button */
+.emailButton {
+  padding: 0.5rem 1.5rem;
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
+  font-weight: 500;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+  background-color: var(--primary);
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.emailButton:hover {
+  background-color: var(--primary-hover);
+}
+
+/* RIGHT SIDE */
+.right {
+  background-color: var(--card-bg-right);
+  justify-content: center; /* vertical center */
+  text-align: center;
+  gap: 1rem;
+  word-wrap: break-word;
+  overflow: visible;
+}
+
+.right h2 {
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+.right p {
+  font-size: clamp(0.95rem, 3vw, 1.1rem);
+  color: var(--accent);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+/* Action buttons */
+.actionButtons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  padding: 0.5rem 1.5rem;
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
+  font-weight: 500;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s;
+  background-color: var(--primary);
+  color: white;
+}
+
+.button:hover {
+  background-color: var(--primary-hover);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .left, .right {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .socialIcons {
+    justify-content: center;
+  }
+
+  .actionButtons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+.heroRight {
+  position: relative; /* required for fill */
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
